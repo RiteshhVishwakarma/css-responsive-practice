@@ -17,6 +17,7 @@ html{
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction:column;
     justify-items: center;
     align-items: center;
 }
@@ -33,11 +34,14 @@ html{
 #header p{
     font-size: 5rem;
 }
+#tech{
+    color: aquamarine;
+}
 
 @media (max-width:480px) {
     #header p{
-        font-size: 1.8rem;
-        color:yellow;
+        font-size: 0.8rem;
+        color:rgb(38, 206, 0);
     }
 
 }
