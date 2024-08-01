@@ -1,0 +1,50 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%
+    /* 100% = 16px  */
+    /* 1px = 6.2 */ 
+    /* 100/16 */
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#header{
+    background-color: red;
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header p{
+    font-size: 5rem;
+}
+
+@media (max-width:480px) {
+    #header p{
+        font-size: 1.8rem;
+        color:yellow;
+    }
+
+}
+@media (max-width:900px) {
+    #header p{
+        font-size: 3rem;
+        color:yellow;
+    }
+
+}
