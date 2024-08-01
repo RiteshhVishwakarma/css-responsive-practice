@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 html{
     height: 100%;
@@ -34,14 +35,102 @@ html{
 #header p{
     font-size: 5rem;
 }
-#tech{
-    color: aquamarine;
+
+img{
+    height: 50rem;
+    width: 50rem;
+    border: 2px solid black;
+    border-radius: 10rem;
+    margin-top: 1rem;
 }
 
+#Contact{
+    background-color: red;
+    height: 4rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#whatsapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#whatsapp .whatsapp-num{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 3rem;
+    padding: 0rem 2rem;
+    text-decoration: none;
+}
+#whatsapp .whatsapp-num i{
+    padding-right: .8rem;
+}
+#whatsapp .whatsapp-num a{
+    padding-right: .8rem;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
 @media (max-width:480px) {
+
     #header p{
-        font-size: 0.8rem;
+        font-size: .7px;
         color:rgb(38, 206, 0);
+    }
+
+    img{
+        height: 25rem;
+        width: 25rem;
+        border: 2px solid black;
+        border-radius: 5rem;
+        margin-top: 2rem;
+    }
+
+    #Contact{
+        background-color: red;
+        height: 2rem;
+        width: 100%;
+        margin-top: 2rem;
+        
+    }
+    
+    #whatsapp{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    #whatsapp .whatsapp-num{
+        color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: 1.5rem;
+        padding: 0rem 1rem;
+        text-decoration: none;
+    }
+    #whatsapp .whatsapp-num i{
+        padding-right: .5rem;
+    }
+    #whatsapp .whatsapp-num a{
+        padding-right: .5rem;
+        
+    }
+    a{
+        text-decoration: none;
     }
 
 }
@@ -49,6 +138,13 @@ html{
     #header p{
         font-size: 3rem;
         color:yellow;
+    }
+    img{
+        height: 35rem;
+        width: 35rem;
+        border: 2px solid black;
+        border-radius: 5rem;
+        margin-top: 2rem;
     }
 
 }
